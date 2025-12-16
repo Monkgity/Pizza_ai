@@ -76,9 +76,13 @@ Il tutto è orchestrato tramite **Datapizza**, che gestisce il workflow degli ag
     CHIAVE_INSTA = "INSERISCI_LA_TUA_CHAIVE"
     ```
 
+5.  **Esegui lo streamlit:**
+    ```bash
+    streamlit run .\streamlit\streamlit_main.py    
+    ```
 
 **COME OTTENERE LE CHIAVI:**
 
 per OPENAI    *https://openai.com/api/*        
-per INSTAGRAM     *https://rapidapi.com/3205/api/instagram120*  
+per INSTAGRAM     *https://rapidapi.com/3205/api/instagram120*    [GRATUITA]
 
