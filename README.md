@@ -70,15 +70,15 @@ Il tutto è orchestrato tramite **Datapizza**, che gestisce il workflow degli ag
     pip install -r requirements.txt
     ```
 
-**ISTRUZIONI CHIAVI:**
-
-Entra nell .env e inserisci la tua chaive
+4.  **Inserisci le chiavi tue nell env:**
     ```bash
     OPENAI_KEY = "INSERISCI_LA_TUA_CHAIVE"
     CHIAVE_INSTA = "INSERISCI_LA_TUA_CHAIVE"
     ```
 
+
 **COME OTTENERE LE CHIAVI:**
 
-per OPENAI *https://openai.com/api/*   (A PAGAMENTO)        
-per INSTAGRAM  *https://rapidapi.com/3205/api/instagram120*  (GRATIS)           
+per OPENAI    *https://openai.com/api/*        
+per INSTAGRAM     *https://rapidapi.com/3205/api/instagram120*  
+
