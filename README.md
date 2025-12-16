@@ -43,7 +43,7 @@ Il tutto è orchestrato tramite **Datapizza**, che gestisce il workflow degli ag
 │       └── get_post_from_insta.py
 └── streamlit
     └── streamlit_main.py
-
+```
 
 **Clona il repository:**
     
@@ -82,5 +82,5 @@ CHIAVE_INSTA = "INSERISCI_LA_TUA_CHAIVE"
 
 **COME OTTENERE LE CHIAVI:**
 
-per OPENAI *https://openai.com/api/*   (A PAGAMENTO)
-per INSTAGRAM  *https://rapidapi.com/3205/api/instagram120*  (GRATIS)
+per OPENAI *https://openai.com/api/*   (A PAGAMENTO)        
+per INSTAGRAM  *https://rapidapi.com/3205/api/instagram120*  (GRATIS)           
