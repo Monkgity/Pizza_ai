@@ -45,40 +45,38 @@ Il tutto è orchestrato tramite **Datapizza**, che gestisce il workflow degli ag
     └── streamlit_main.py
 ```
 
-**Clona il repository:**
-    
+1.  **Clona il repository:**
     ```bash
-    git clone https://github.com/Monkgity/Pizza_ai
-    cd elfi-ai
+    git clone https://github.com/Monkgity/Pizza_ai.git
+    cd Pizza_ai
     ```
 
-**Attiva l'envirovment:**
+2.  **Crea e attiva l'environment:**
 
+    Su macOS/Linux:
     ```bash
-    # Su macOS/Linux
     python3 -m venv venv
     source venv/bin/activate
-
-    # Su Windows
-    python -m venv venv
-    venv\Scripts\activate    
     ```
 
+    Su Windows:
+    ```bash
+    python -m venv venv
+    venv\Scripts\activate
+    ```
 
+3.  **Installa le dipendenze:**
     ```bash
     pip install -r requirements.txt
     ```
 
-
 **ISTRUZIONI CHIAVI:**
 
 Entra nell .env e inserisci la tua chaive
-
-```bash
-OPENAI_KEY = "INSERISCI_LA_TUA_CHAIVE"
-CHIAVE_INSTA = "INSERISCI_LA_TUA_CHAIVE"
-
-```
+    ```bash
+    OPENAI_KEY = "INSERISCI_LA_TUA_CHAIVE"
+    CHIAVE_INSTA = "INSERISCI_LA_TUA_CHAIVE"
+    ```
 
 **COME OTTENERE LE CHIAVI:**
 
