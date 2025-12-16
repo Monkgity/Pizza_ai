@@ -78,7 +78,17 @@ Il tutto è orchestrato tramite **Datapizza**, che gestisce il workflow degli ag
     CHIAVE_INSTA = "INSERISCI_LA_TUA_CHAIVE"
     ```
 
-5.  **Esegui lo streamlit:**
+5.  **MODIFICA IL CONFIG: SCEGLI QUANTE FOTO OGNI CHIAMATA E QUALI MODELLI USARE**
+    ```bash
+    max_photo_for_profile: 2   # NON INSERIRE UN NUMERO TROPPO ELEVATO
+    MAIN_AGENT: "gpt-4o-mini"     
+    AMAZON_AGENT: "gpt-4o-search-preview"      
+    AMAZON_DUCK: "gpt-4.1"    
+    PHOTO_AGENT: "gpt-4.1"     
+    JSON_AGENT: "gpt-4o-mini"    
+    ```
+
+6.  **Esegui lo streamlit:**
     ```bash
     streamlit run .\streamlit\streamlit_main.py    
     ```
