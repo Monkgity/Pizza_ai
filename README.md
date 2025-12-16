@@ -39,8 +39,10 @@ Il tutto è orchestrato tramite **Datapizza**, che gestisce il workflow degli ag
 │   │   ├── create_output_json.py
 │   │   └── get_amazon_link_with_duckduck.py
 │   └── tools
-│       ├── get_photo_info_openai.py
-│       └── get_post_from_insta.py
+│   │   ├── get_photo_info_openai.py
+│   │   └── get_post_from_insta.py
+│   └── utils
+│        └── check_insta.py
 └── streamlit
     └── streamlit_main.py
 ```
